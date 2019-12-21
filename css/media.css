@@ -1,0 +1,100 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .search_form .form-control {
+        width: 300px !important;
+    }
+   .search_form .search {
+        width:100px;
+    }
+    .margintop40 {
+        margin-top:40px;
+    }
+    .blog_img img {
+        width: 100%;
+    }
+    .blog_img h4 {
+        top: 60%;
+    }
+    .single_col_blog_box {
+        padding: 50px 0px 20px;
+    }
+    .single_col_blog_box h2 {
+        font-size: 36px;
+    }
+    .single_col_blog_box p.para, .single_col_blog_box p.para2 {
+        line-height:1.4;
+    }
+    .single_col_blog_box h4 {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    .single_col_blog_box p.date {
+        padding: 12px 10px 0px 0px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom:none !important;
+        font-weight: 600;
+    }
+    
+} 
+
+ /*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .margintop40 {
+        margin-top:40px;
+    }
+    .blog_img img {
+        width: 100%;
+    }
+    .single_col_blog_box {
+        padding: 100px 0px 20px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom:none !important;
+        padding-left: 8px;
+        font-weight: 600;
+    }
+    
+    
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .blog_box p a, .single_col_blog_box p.date a {
+        font-size: 14px;
+    }
+    .blog_img h4 {
+        top: 60%;
+    }
+    .single_col_blog_box {
+        padding: 150px 0px 20px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom:none !important;
+        padding-left: 8px;
+        font-weight: 600;
+    }
+    
+    
+}
+
+ /*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+    
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+       
+}
+
+
+
+
+
+
